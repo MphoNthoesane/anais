@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="anais.css">
+</head>
+<body>
+    <div class="all">
+        <div class="intro">
+            Account <input type="text" name="" id="" class="intro-space">
+            
+            Status <input type="text" name="" id="" class="intro-space">
+            
+            Message <input type="text" name="" id="" class="intro-space">
+            
+            IFPL ID <input type="text" name="" id="" class="intro-space">
+            
+            Reference Number <input type="text" name="" id="" class="intro-space">
+            Contact <input type="text" name="" id="">
+
+        </div>
+
+        <div class="above-btns">
+            <button type="button" class="shift-btns">FPL</button>
+            <button type="button" class="shift-btns">Addresses</button>
+            <button type="button" class="shift-btns">Other Info</button>
+            <button type="button" class="shift-btns">OFP</button>
+            <button type="button" class="shift-btns">Profile</button>
+            
+        </div>
+        <hr class="line" style="border: solid 1px; margin-top: -2px;">
+        FPL 2012 FORMAT <select name="" id=""><option value="">NEW</option></select>
+        <br>
+        7 - AIRCID <input type="text" name="" id="aircraft" class="intro-space" style="text-transform: uppercase; width: 50px;" maxlength="7"> REG &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="registration" class="intro-space" style="text-transform: uppercase; width: 70px;" maxlength="7"> <button type="button" id="regfill">RE<u>G</u> Fill</button>
+        SSR <input type="text" name="" id="" class="intro-space" style="width: 50px;"> 8 - FLTTRUL & FLTTYP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="" id="">
+            <option value=""></option>
+            <option value="">I IFR</option>
+            <option value="">V VFR</option>
+            <option value="">Y IFR VFR</option>
+            <option value="">Z VFR IFR</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="" id="">
+            <option value=""></option>
+            <option value="">S Scheduled </option>
+            <option value="">N Non-Scheduled</option>
+            <option value="">G General Aviation</option>
+            <option value="">M Military</option>
+            <option value="">X</option>
+        </select>
+        <br>
+        9 - NUMBER &nbsp;&nbsp;<input type="number" name="" id="" style="width: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ARCTYP &nbsp;&nbsp;&nbsp;<input type="text" name="" id="" style="width: 40px;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="" id="">
+            <option value=""></option>
+            <option value="">L Light</option>
+            <option value="">M Medium</option>
+            <option value="">H Heavy</option>
+            <option value="">J Jumbo</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        10 - EQPT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="" id="" style="width: 300px; text-transform: uppercase;">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="" id="" style="width: 160px;">
+        &nbsp;
+        <button type="button">Eqpt</button>
+        <br>
+        13 - ADEP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" style="width: 40px; text-transform: uppercase;" maxlength="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EOBT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="" id="" style="width: 50px;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        AUTHORIZED.FLT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="" id="" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        PIB DONE <input type="checkbox" name="" id="">
+
+        <div class="put-me-in-line-route">
+            15 - Route 
+        </div>
+        <div class="route-block">
+        <div class="route-box">
+            <div class="route-1">
+                SPEED &nbsp;&nbsp;&nbsp;&nbsp;<select name="" id="" style="width: 7.5em;">
+                    <option value=""> N Knots</option>
+                </select>&nbsp;&nbsp;
+                <input type="number" name="" id="" style="width: 50px;">
+                <br>
+                RFL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="" id="" style="width: 7.5em;">
+                    <option value=""></option>
+                    <option value="">A Altitude</option>
+                    <option value="">F Flight Level</option>
+                </select>&nbsp;&nbsp;
+                <input type="number" name="" id="" style="width: 40px;">
+            </div>
+            &nbsp;&nbsp;
+            <div class="route-2">
+                <textarea name="" id="" style="width: 500px; text-transform: uppercase;height: 80px;"></textarea>
+            </div>
+            <div class="route-3">
+                <button type="button" style="width: 70px;">R<u>e</u>trieve</button>
+                <button type="button" style="width: 70px;">Add</button>
+                <button type="button" style="width: 70px;">C<u>h</u>eck</button>
+            </div>
+        </div>
+        <div class="map-brief">
+            <button type="button" style="width: 70px;">Map</button>
+            <button type="button" style="width: 70px;"><u>B</u>riefing</button>
+        </div>
+    </div>
+    16 - ADES &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" style="width: 40px; text-transform: uppercase;" maxlength="4">&nbsp;&nbsp;
+    TTLEET <input type="number" name="" id="" style="width: 50px;">&nbsp;&nbsp;&nbsp;&nbsp;
+    ALTRNT <input type="text" name="" id="" style="width: 40px;text-transform: uppercase;" maxlength="4">&nbsp;&nbsp;&nbsp;
+    <input type="text" name="" id="" style="width: 40px;text-transform: uppercase;" maxlength="4">
+    <br>
+    <hr>
+    <div class="put-me-in-line-field18">18 - Other Info</div>
+    <div class="field18">
+        <textarea name="" id="field18" style="width: 1200px;height: 100px; text-transform: uppercase;"></textarea>
+        <select name="" id="" style="width: 70px;height: 25px;margin-top: 30px;">
+            <option value="">STS</option>
+        </select>
+    </div>
+    <div class="below-options">
+        <button type="button">19 - Supplementary Info</button>
+        <button type="button">Remark</button>
+    </div>
+    <div class="field19">
+        <div class="field19-part1">
+
+            <div class="field-19-columns">
+
+                <div class="include">
+                    Include F19 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="" id="">
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="button">Reset F19</button>
+                </div>
+
+                 <div class="endurance">
+                    Endurance &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="" id="" style="width: 50px;">
+                    <br>
+                    POB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="" id="" style="width: 40px;">
+                 </div>
+
+                 <!-- Add the hidden -->
+                 <div class="emergency-radio">
+                    UHF <input type="checkbox" name="" id="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ELT <input type="checkbox" name="" id="">
+                    <br>
+                    VHF <input type="checkbox" name="" id="">
+                 </div>
+
+                 <!-- Add the hidden -->
+                 <div class="survival-equipment">
+                    Polar&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="" id=""> Maritime &nbsp;<input type="checkbox" name="" id="">
+                    <br>
+                    Desert&nbsp;&nbsp;<input type="checkbox" name="" id=""> Jungle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="" id="">
+                 </div>
+
+                 <!-- Add the hidden -->
+                  <div class="jackets">
+                    Light&nbsp; <input type="checkbox" name="" id=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fluores <input type="checkbox" name="" id="">
+                    <br>
+                    UHF &nbsp;&nbsp;<input type="checkbox" name="" id="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VHF &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="" id="">
+                  </div>
+
+                  <!-- Add the hidden -->
+                   <div class="dinghies">
+                    Number &nbsp;&nbsp;<input type="number" name="" id="" style="width: 25px;">&nbsp; Capacity&nbsp;&nbsp;<input type="number" name="" id="" style="width: 25px;">&nbsp;&nbsp; Cover&nbsp;&nbsp;<input type="checkbox" name="" id=""> 
+                    <br>
+                    Colour &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" style="width: 220px;text-transform: uppercase;">
+                   </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+        <div class="field19-part2">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PIC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" style="width: 300px; text-transform: uppercase;">
+            &nbsp;&nbsp; ARC COL &nbsp;<input type="text" name="" id="" style="width: 300px; text-transform: uppercase;">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            REMARKS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" style="width: 700px; text-transform: uppercase;">
+        </div>
+    </div>
+    </div>
+
+
+    <script src="anais.js"></script>
+</body>
+</html>

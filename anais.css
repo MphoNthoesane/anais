@@ -1,0 +1,107 @@
+body{
+    background-color: #e0dad2;
+
+}
+
+.intro-space{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.intro{
+    margin-bottom: 30px;
+}
+.route-box{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    border-top: solid;
+    border-left: solid;
+    border-bottom: solid white;
+    border-right: solid white;
+    width: 1000px;
+}
+.map-brief,.route-3{
+    display: flex;
+    flex-direction: column;
+}
+.route-block{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.route-1{
+    margin-top: 10px;
+}
+.route-3{
+    margin-left: 3px;
+    justify-content: space-evenly;
+    margin-top: -7px;
+}
+.map-brief{
+    border: none;
+    width: 200px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.field18{
+    display: flex;
+    justify-content: space-evenly;
+}
+.field-19-columns{
+    display: flex;
+    border: none;
+    justify-content: space-evenly;
+}
+.survival-equipment, .endurance, .emergency-radio, .jackets{
+    border-top: solid;
+    border-left: solid;
+    border-bottom: solid white;
+    border-right: solid white;
+    width: 170px;
+    padding: 10px;
+}
+.include{
+    padding: 10px;
+    border: none;
+    width: 160px;
+}
+.field19-part2{
+    width: 1200px;
+    margin-top: 10px;
+}
+.below-options{
+    margin-top: 10px;
+}
+.field19{
+    border-top: solid 1px;
+    padding-top: 10px;
+}
+.dinghies{
+    border-top: solid;
+    border-left: solid;
+    border-bottom: solid white;
+    border-right: solid white;
+    width: 300px;
+    padding: 10px;
+}
+.above-btns{
+    display: flex;
+    justify-content:space-evenly;
+    border: none;
+    width: 297px;
+    
+}
+.shift-btns{
+    height: 30px;
+    border: solid 0.5px;
+    border-radius: 2px;
+    color: #1c2d54;
+    font-weight: bold;
+}
+.shift-btns:focus{
+    height: 32px;
+}
